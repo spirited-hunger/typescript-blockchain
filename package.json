@@ -1,0 +1,24 @@
+{
+  "name": "typescript-blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "prestart": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spirited-hunger/typescript-blockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spirited-hunger/typescript-blockchain/issues"
+  },
+  "homepage": "https://github.com/spirited-hunger/typescript-blockchain#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
