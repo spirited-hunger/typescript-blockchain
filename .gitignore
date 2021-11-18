@@ -1,2 +1,4 @@
-.env
 distribution
+node_modules
+
+.env

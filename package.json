@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/spirited-hunger/typescript-blockchain#readme",
   "devDependencies": {
+    "tsc": "^2.0.3",
     "tsc-watch": "^4.5.0",
-    "typescript": "^4.3.5"
+    "typescript": "^4.5.2"
   }
 }

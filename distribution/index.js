@@ -1,8 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const name = "Sung", age = 30, gender = "male";
-const sayHi = (name, age, gender) => {
-    return `Hi, ${name}, you are ${age} and you are a ${gender}`;
+const person = {
+    name: "Sung",
+    age: 30,
+    gender: "male"
 };
-console.log(sayHi("Catherine", 27, "female"));
+const sayHi = (person, message) => {
+    return `Hi, ${person.name}, you are ${person.age} and you are a ${person.gender}. ${message ? message : ""}`;
+};
+console.log(sayHi(person));
 //# sourceMappingURL=index.js.map
